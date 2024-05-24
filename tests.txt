@@ -1,0 +1,27 @@
+calling umeminit with size 0
+calling umeminit twice
+calling umeminit with size 1
+calling umeminit with size [pagesize]
+calling umeminit with size [pagesize - 1]
+calling umeminit with huge size
+calling malloc with size 0
+calling malloc with size 1
+calling malloc with size [sizeOfRegion - headersize]
+calling malloc with size > [sizeOfRegion]
+calling malloc multiple times to overflow buffer
+calling free before initializing
+calling free before malloc
+calling free with invalid ptr
+calling free with null ptr
+correct use of malloc then free * 1000
+test coalescing
+test bestfit
+test worst_fit
+test firstfit
+test nextfit
+
+
+adding/removing a block to free list at the beginning/end of list
+adding/removing a block to free list at the beginning/end of memory space
+
+
